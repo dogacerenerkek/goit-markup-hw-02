@@ -1,18 +1,72 @@
-header {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Tangerine:wght@400;700&display=swap');
+
+header a {
     background-color: #FFF;
     color: #434455;
     font-size: 16px;
-}
+    line-height: 16px;
+    letter-spacing: 4%;
+    size: 12px;
+    }
+    
 #baslik {
     font-size: 18px;
+    font-weight: bold;
 }
 button {
     border: 4px solid #4D5AE5;
     text-align: center;
+    background-color: #4D5AE5;
+    color: #FFF;
+    cursor: pointer;
+    line-height: 24px;
+    letter-spacing: 4%;
+    size: 16px;
+    
 }
 .birinci {
     background-color: #2E2F42;
+    padding: 60px;
 }
 .ikinci {
     color: #FFF;
+    font-size: 56px;
+    text-align: center;
+}
+.onalti {
+    font-size: 16px;
+}
+.uc {
+    font-size: 20px;
+}
+.bes {
+    font-size: 36px;
+}
+h3 {
+    font-size: 20px;
+}
+.yedi p {
+    font-size: 16px;
+}
+h2 {
+    font-size: 36px;
+}
+button:hover {
+    background-color: #404BBF;
+    border: 4px solid #404BBF;
+    color: #FFF;
+}
+footer {
+    background-color: #2E2F42;
+    font-size: 16px;
+    color: #F4F4FD;
+    padding: 40px;
+}
+footer a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #F4F4FD;
+}
+body {
+font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
